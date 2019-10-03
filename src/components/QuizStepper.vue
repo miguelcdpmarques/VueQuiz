@@ -26,9 +26,13 @@
       <v-stepper-content step="1">
         <v-card
           class="mb-12"
-          color="grey lighten-1"
+          color="#eee"
           height="200px"
-        ></v-card>
+          style="padding: 1rem;"
+        >
+            <question-title title="The title for the first question of the quiz"></question-title>
+            <question-options options="['first option', 'second', 'third', 'fourth']"></question-options>
+        </v-card>
 
         <v-btn
           color="primary"
@@ -78,11 +82,18 @@
 </template>
                 
 <script>
+import QuestionTitle from './QuestionTitle.vue'
+import QuestionOptions from './QuestionOptions.vue'
+
 export default {
     data () {
       return {
         e1: 0,
       }
+    },
+    components: {
+        QuestionTitle,
+        QuestionOptions
     }
 }
 </script>
