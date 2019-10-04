@@ -5,13 +5,13 @@
     </v-btn>
   </div>
 </template>
-                
+
 <script>
 export default {
 
 }
 </script>
-                        
+
 <style lang='scss'>
 .game {
     &-button {
@@ -21,5 +21,5 @@ export default {
         color: white !important;
         text-decoration: none;
     }
-}        
+}
 </style>

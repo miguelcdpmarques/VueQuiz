@@ -6,13 +6,13 @@
      <img class="game-logo" alt="Vue logo" src="../assets/logo.png">
   </div>
 </template>
-                
+
 <script>
 export default {
 
 }
 </script>
-                        
+
 <style lang='scss'>
 .game {
     &-logo {
@@ -23,5 +23,5 @@ export default {
         font-size: 1.6rem;
     }
 }
-     
+
 </style>

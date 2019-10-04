@@ -22,8 +22,8 @@ export default {
   name: 'App',
   data: () => ({
     //
-  }),
-};
+  })
+}
 </script>
 
 <style>
