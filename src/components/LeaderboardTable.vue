@@ -1,9 +1,9 @@
 <template>
-  <v-data-table
+  <v-data-table dark
     :headers="headers"
     :items="leaderboard"
     :items-per-page="5"
-    class="elevation-1"
+    class="elevation-1 mt-5"
   ></v-data-table>
 </template>
 
@@ -19,12 +19,15 @@ export default {
         { text: 'Name', value: 'name' },
         { text: 'Time', value: 'time' }
       ],
-      leaderboard: [],
+      leaderboard: []
     }
   }
 }
 </script>
 
 <style lang='scss'>
-
+.v-data-table td,
+.v-data-table th {
+  font-size: 2rem !important;
+}
 </style>

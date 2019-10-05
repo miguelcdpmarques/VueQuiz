@@ -21,3 +21,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+div.v-data-table {
+  font-size: 2rem;
+}
+</style>

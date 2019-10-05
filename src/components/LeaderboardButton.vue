@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center mt-5 mb-5">
+  <div class="text-center mt-5 mb-10">
     <v-btn class="game-button">
         <router-link to="/newquiz" class="game-text">Start Quiz</router-link>
     </v-btn>
@@ -20,6 +20,7 @@ export default {
     &-text {
         color: white !important;
         text-decoration: none;
+        font-size: 1rem;
     }
 }
 </style>

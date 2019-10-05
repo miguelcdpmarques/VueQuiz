@@ -3,7 +3,7 @@
     <v-app-bar app
       color="#41B883">
       <v-toolbar-title class="headline text-uppercase">
-        <span>Advanced Vue.js Quiz</span>
+        <span>Vue.js Quiz</span>
       </v-toolbar-title>
       <div class="flex-grow-1"></div>
       <router-link to="/" class="toolbar-link">Leaderboard</router-link>
